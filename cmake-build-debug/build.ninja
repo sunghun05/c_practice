@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.d
 
 build CMakeFiles/untitled.dir/main.c.o: C_COMPILER__untitled_unscanned_Debug /Users/king/programing/c/struct/main.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
   TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/
@@ -66,7 +66,7 @@ build CMakeFiles/untitled.dir/main.c.o: C_COMPILER__untitled_unscanned_Debug /Us
 # Link the executable untitled
 
 build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.3
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
   PRE_LINK = :
