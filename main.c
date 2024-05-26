@@ -31,7 +31,6 @@ int create_st() {
         }
         break;
     }while(1);
-    printf("%d\n", st_cnt);
     return st_cnt;
 }
 void show(STUDENTS* stu1) {
@@ -127,7 +126,10 @@ int search_menu(STUDENTS* stu1) {
     do{
         mode = 0;
         printf("검색 메뉴를 선택하세요\n");
-        printf("0 : 이름으로 검색\n1 : 학번으로 검색2 : 모두 보이기\n-1 : 메뉴로 나가기\n");
+        printf("0 :     이름으로 검색\n"
+               "1 :     학번으로 검색\n"
+               "2 :     모두 보이기\n"
+               "-1 :    메뉴로 나가기\n");
         if (!scanf("%d", &mode)) {
             printf("올바른 메뉴를 입력하세요.\n");
             while(getchar() != '\n');
@@ -155,8 +157,12 @@ int menu(STUDENTS* stu1) {
 
     do{
         mode = 4;
-        printf("\n          메뉴를 선택하세요\n\n");
-        printf(" 0          나이 입력\n 1           점수 입력\n 2           학번 입력\n 3           검색\n-1          종료\n");
+        printf("\n            메뉴를 선택하세요\n\n          ");
+        printf(" 0                              나이 입력\n"
+               " 1                              점수 입력\n"
+               " 2                              학번 입력\n"
+               " 3                              검색\n"
+               "-1                              종료\n");
         if (!scanf("%d", &mode)) {
             printf("올바른 메뉴를 입력하세요.\n");
             while(getchar() != '\n');
